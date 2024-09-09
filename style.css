@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image:url(gradient.webp); */
+    background-color:#2d2433;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* main section */
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    margin: 80px;
+
+}
+/* header stick */
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color:#51235b;
+    height: 45px;
+    width: auto;
+
+}
+/* links */
+a {
+    text-decoration: none;
+    color: inherit;
+    padding: 8px;
+    font-size: 19px;
+}
+.icons a:hover {
+    color: #7922a1;
+    border-bottom: 3px solid #7922a1;
+}
+
+/* main */
+main {
+    background-image: url(Tanvi.jpg);
+    /* border-radius: 50px; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 70vw;
+    min-height: 80vh;
+}
+    .container {
+        min-height: 60vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: start;
+        gap: 40px;
+        font-weight: 400;
+    }
+    h1{
+        margin-top: 20px;
+        margin-left: 50px;
+        text-align: center;
+        letter-spacing: -3px;
+        line-height: 0.9;
+        font-size: calc(5vw + 8px);
+        font-weight: 400;
+        background-image: linear-gradient(279deg, #2a41bd 0%, #8d39b3ec 46%, #ebb147 100%);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    h2{
+        font-size: 40px;
+        color: rgba(255, 255, 255, 0.582);
+    }
+    p {
+        font-size: 22px;
+        color: rgba(255, 255, 255, 0.658);
+    }
+    /* button */
+    .mainbtn {
+        display: flex;
+        font-size: 18px;
+        background-color:#7922a1;
+        color:rgba(255, 255, 255, 0.582);
+        padding: 8px 16px;
+        border-radius: 22px;
+        border: none;
+        cursor: pointer;
+        position: relative;
+    }
+    .mainbtn:hover{
+        /* background-color: white; */
+        box-shadow: 0px 2px 10px 5px #1a0027;
+    }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    color: rgba(255, 255, 255, 0.582);
+    }
+.tanvi{
+       float: right;
+       padding-right: 48px;
+    }
+    .btn {
+        background-color:#7922a1;
+        /* color: rgb(15, 14, 14); */
+        padding: 4px 16px;
+        margin-top: 140px;
+        border-radius: 22px;
+        margin: 28px;
+    }
+    .btn:hover{
+        color: black;
+    }
+.text{
+        font-family: "EB Garamond", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-size: 40px;
+        font-style: normal;
+    }
+/* about */
+
+.abouttext{
+    width:50vw;
+    display: flex;
+    padding: 20px;
+    float: right;
+    /* margin-right: 30px; */
+    /* padding-left: 10px; */
+    }
+    .boxproject{
+        height: 140px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        width: 240px;
+        border: 1px solid rgba(255, 255, 255, 0.575);
+        background-color: #22102b;
+    }
+    
+    .about{
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    }
+    .boxproject:hover{
+        /* background-color: white; */
+        box-shadow: 0px 2px 10px 5px #1a0027;
+        cursor: pointer;
+        text-decoration: none;
+        height: 180px;
+    }
+    .boxtwo{
+        height: 140px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        width: 240px;
+        border: 1px solid rgba(255, 255, 255, 0.575);
+        background-color: #22102b;}
+
+    .twotext{
+            width:50vw;
+            display: flex;
+            padding: 20px;
+            float: right;
+        }
+        .twotext:hover{
+        box-shadow: 0px 4px 10px 5px #1a0027;
+        cursor: pointer;
+        text-decoration: none;
+        }
+/* skills */
+.skill{
+    display: inline-block;
+    flex-direction: row;
+    margin: 10px;
+    height: 50px;
+    margin-top: 40px;
+    /* width: 80px; */
+    }
+
+/* Project */
+
+.projectbox{
+    display: flex;
+ background-color: #ebb147;
+ height: 50px;
+ width: 40px;
+}
+.projectbox:hover{
+    border: 1px solid white;
+} 
+ #myDIV {
+    height:300px;
+    display: flex;
+    justify-content: space-around;
+  }
+  #myDIV div {
+    margin-top: 30px;
+    width: 280px;
+    height: 280px; 
+    /* border: 1px solid rgba(255, 255, 255, 0.692); */
+  } 
+  
+  #myDIV div:hover {
+    cursor: pointer;
+    width: 340px;
+    height: 340px;
+  }
+
+  .agepp{
+    background-image:url(age_calc.PNG);
+    background-size:contain;
+    background-repeat:no-repeat;
+  }
+  .ageapp:hover{
+    box-shadow: #51235b;
+  }
+ .cross-game{
+    background-image: url(cross-game.PNG);
+    background-size:contain;
+    background-repeat:no-repeat;
+ }
+ .medium-clone{
+    background-image: url(medium.PNG);
+    background-size:contain;
+    background-repeat:no-repeat;
+ }
+ .notes-app{
+    background-image: url(notes_app.PNG);
+    background-size:contain;
+    background-repeat:no-repeat;
+ }
+ .qr{
+    background-image: url(qr.PNG);
+    background-size:contain;
+    background-repeat:no-repeat; */
+}
+
+
+
+/* Resume */
+.mainre{
+    text-align: center;
+    margin-left: 17px;
+    margin-right: 28px;
+}
+.resumebtn{
+    margin-top: 29px;
+    font-size: 28px;
+    background-color:#7922a1;
+    color:rgba(255, 255, 255, 0.993);
+    padding: 8px 16px;
+    border-radius: 28px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+.resumebtn:hover{
+    /* background-color: white; */
+    box-shadow: 0px 2px 10px 5px #1a0027;
+}
+
+
+/* footer (text)*/
+footer{
+    background-color: black;
+    gap: 40px;
+    padding: 20px;
+    color: white;
+    }
+.start{
+    color: white;
+    display: flex;
+    justify-content:start;
+    gap: 20px;
+}
+.end{
+    display: flex;
+    justify-content: end;
+    float: right;
+}
+.designed{
+    display: flex;
+    justify-content: end;
+    text-align: center;
+}
+
+/* keyframes for role */
+
+.animated-text{
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+}
+.animated-text span{
+    position: relative;
+}
+.animated-text span::before{
+    content: "Front-end Developer";
+    text-decoration: underline;
+    color: orange;
+    animation: words 8s infinite;
+    st
+}
+/* .animated-text span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    animation: cursor .4s infinite,typing 20s steps(14) infinite;
+    animation-duration : 3s; */
+/* } */
+@keyframes cursor {
+    to{
+        border-left: 2px solid ;
+    }
+    
+}
+@keyframes words {
+    20%{
+    content: "Web Developer";
+    color: crimson;
+    }
+    30%{
+    content: "Data Analyst  ";
+    color: aqua;
+    }
+    40%{
+    content: "Python Developer";
+    color: chartreuse;
+    }
+    50%{
+        content: "Python Developer";
+        color: cornflowerblue;
+        }
+}
+
+/* contact */
+.contact{
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #51235b; */
+}
+.act{
+    max-width: 400px;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    height: auto;
+    color: white;
+    box-shadow: 0 0 10px white;
+}
+.act h1{
+    text-align: center;
+    font-size: 3rem;
+    margin: 10px 0;
+}
+.act .input{
+    width: 80%;
+    height: 5vh;
+    display: flex;
+    border: 10px;
+    border: 1px solid white;
+    margin: 8% 10%;
+    justify-content: space-between;
+}
+.input input{
+    width: 90%;
+    padding-left: 10px;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+::placeholder{
+    color: white;
+}
+
+.input label{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.act .for{
+    display: flex;
+    width: 80%;
+    margin: 1 10%;
+    justify-content: space-between;
+}
+.for .forget a{
+    color: white;
+    text-decoration: none;
+    transition: 0.2s linear;
+}
+.for .forget a:hover{
+    color: orangered;
+}
+.act button{
+    width: 80%;
+    height: 6vh;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid rgb(25, 25, 87);
+    background-color: rgb(25, 25, 87);
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 7% 10%;
+}
+.act button:hover{
+    background-color: transparent;
+    box-shadow: 0 0 5px 2px rgb(25, 25, 87);
+    color:rgb(25, 25, 87) ;
+}
+.act p{
+    margin: 20px 0;
+    text-align: center;
+}
+.act p a{
+    color: red;
+}
+
+/* for projects h3 */
+h3{
+    color: rgba(255, 255, 255, 0.74);
+    font-size: x-large;
+    text-decoration: underline;
+}
